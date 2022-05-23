@@ -3,3 +3,5 @@ base
 *models/
 .ipynb_checkpoints
 .bin
+*mlruns/
+*.db
