@@ -5,3 +5,4 @@ base
 .bin
 *mlruns/
 *.db
+*.DS_Store
