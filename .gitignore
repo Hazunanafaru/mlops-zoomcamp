@@ -6,3 +6,4 @@ base
 *mlruns/
 *.db
 *.DS_Store
+*output/
