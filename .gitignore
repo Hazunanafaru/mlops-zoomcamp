@@ -7,3 +7,4 @@ base
 *.db
 *.DS_Store
 *output/
+*artifacts/
