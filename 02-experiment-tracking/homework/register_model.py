@@ -63,6 +63,7 @@ def run(data_path, log_top):
     for run in runs:
         train_and_log_model(data_path=data_path, params=run.data.params)
 
+    # Homework Q6
     # select the model with the lowest test RMSE
     experiment = client.get_experiment_by_name(EXPERIMENT_NAME)
     best_run = client.search_runs(

@@ -20,6 +20,8 @@ def load_pickle(filename: str):
 
 def run(data_path):
     with mlflow.start_run():
+        # Homweork Q3
+        # Enable autolog for sklearn
         mlflow.sklearn.autolog()
         X_train, y_train = load_pickle(os.path.join(data_path, "train.pkl"))
         X_valid, y_valid = load_pickle(os.path.join(data_path, "valid.pkl"))
