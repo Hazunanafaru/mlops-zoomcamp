@@ -3,6 +3,16 @@ base
 *models/
 .ipynb_checkpoints
 .bin
+*.db
+
+*.parquet
+*.html
+*.csv
+
+.venv
+venv
+.idea
+
 *mlruns/
 *.db
 *.DS_Store
