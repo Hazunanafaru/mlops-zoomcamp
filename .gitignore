@@ -12,9 +12,3 @@ base
 .venv
 venv
 .idea
-
-*mlruns/
-*.db
-*.DS_Store
-*output/
-*artifacts/
