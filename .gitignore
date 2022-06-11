@@ -1,4 +1,6 @@
-data/
+base
+*data/
+*models/
 .ipynb_checkpoints
 .bin
 *.db
