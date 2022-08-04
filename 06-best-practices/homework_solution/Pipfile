@@ -5,14 +5,12 @@ name = "pypi"
 
 [packages]
 scikit-learn = "==1.0.2"
-pyarrow = "*"
-prefect = "==2.0b8"
 pandas = "*"
-pymongo = "*"
-psutil = "==5.9.1"
-evidently = "*"
+pyarrow = "*"
+s3fs = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
